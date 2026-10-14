@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F5F7FA"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is Page 2"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Button 1: Navigates back home -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBackHome"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Back to Home"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#4CAF50"
+        app:cornerRadius="12dp"
+        app:elevation="4dp" />
+
+    <!-- Button 2: Interactive Toast Action -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPage2Toast"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:text="Show Message"
+        android:textSize="16sp"
+        android:textColor="#4CAF50"
+        app:strokeColor="#4CAF50"
+        app:strokeWidth="2dp"
+        app:cornerRadius="12dp" />
+
+</LinearLayout>
